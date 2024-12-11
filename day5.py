@@ -77,7 +77,7 @@ def calculate_sum_for_incorrect(file_path):
     
     return total_sum
 
-file_path = 'data_day5.txt'
+file_path = 'data_files/data_day5.txt'
 result_part1 = calculate_sum(file_path)
 print(f"PART 1 - Total Sum of Middle Pages: {result_part1}")
 

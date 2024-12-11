@@ -48,4 +48,4 @@ def count_safe_reports_dampener(file_path):
     
     print("Problem Dampener safe reports:", safe_count)
 
-count_safe_reports_dampener('data_day2.txt')
+count_safe_reports_dampener('data_files/data_day2.txt')

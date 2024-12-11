@@ -1,4 +1,4 @@
-with open("data_day9.txt") as f:
+with open("data_files/data_day9.txt") as f:
     input = f.read()
 
 

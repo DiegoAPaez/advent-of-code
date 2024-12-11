@@ -5,7 +5,7 @@ MUL_RE = re.compile(r"mul\((\d{1,3}),(\d{1,3})\)")
 COMMAND_RE = re.compile(r"mul\((\d{1,3}),(\d{1,3})\)|do\(\)|don't\(\)")
 
 # Read the file contents
-file_path = 'data_day3.txt'  # Path to the uploaded file
+file_path = 'data_files/data_day3.txt'  # Path to the uploaded file
 with open(file_path, 'r') as file:
     RAW = file.read()  # Read the entire file content into RAW
 

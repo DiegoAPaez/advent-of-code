@@ -52,6 +52,6 @@ def solve_part2(file_path):
     )
 
 if __name__ == '__main__':
-    file_path = 'data_day10.txt'
+    file_path = 'data_files/data_day10.txt'
     print(f"Part 1: {solve_part1(file_path)}")
     print(f"Part 2: {solve_part2(file_path)}")

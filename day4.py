@@ -1,4 +1,4 @@
-file_path = 'data_day4.txt'
+file_path = 'data_files/data_day4.txt'
 
 def find_xmas_in_file(file_path, word="XMAS"):
     # Read the file and convert it into a grid (list of strings)

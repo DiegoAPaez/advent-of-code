@@ -29,6 +29,6 @@ def solve_part2(file_path):
     return sum(blink(stone, 75) for stone in stones)
 
 if __name__ == '__main__':
-    file_path = 'data_day11.txt'
+    file_path = 'data_files/data_day11.txt'
     print(f"Part 1: {solve_part1(file_path)}")
     print(f"Part 2: {solve_part2(file_path)}")

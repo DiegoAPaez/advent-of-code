@@ -29,4 +29,4 @@ def process_file(file_path):
     print("Part 2 result:", total_occurrences)
 
 
-process_file('data_day1.txt')
+process_file('data_files/data_day1.txt')

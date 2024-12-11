@@ -1,4 +1,4 @@
-GRID = open('data_day6.txt', 'r').read().splitlines()
+GRID = open('data_files/data_day6.txt', 'r').read().splitlines()
 START = next(
         (y, x) for y, line in enumerate(GRID) for x, char in enumerate(line) if char == "^")
 H = len(GRID)

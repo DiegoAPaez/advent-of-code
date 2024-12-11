@@ -39,6 +39,6 @@ def total_calibration_result(file_path, part=1):
     return total
 
 # Example usage:
-file_path = 'data_day7.txt'
+file_path = 'data_files/data_day7.txt'
 print("Part 1 result:", total_calibration_result(file_path, 1))
 print("Part 2 result:", total_calibration_result(file_path, 2))

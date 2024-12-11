@@ -39,6 +39,6 @@ def count_unique_antinode_positions(file_path, part):
     return sum_antipodes(grid, part)
 
 # Example usage:
-file_path = 'data_day8.txt'
+file_path = 'data_files/data_day8.txt'
 print("Part 1 result:", count_unique_antinode_positions(file_path, 1))
 print("Part 2 result:", count_unique_antinode_positions(file_path, 2))
