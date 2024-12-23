@@ -17,7 +17,7 @@ def count_safe_reports_red_nosed(file_path):
     
     print("Red-Nosed Reports safe reports:", safe_count)
 
-count_safe_reports_red_nosed('data_day2.txt')
+count_safe_reports_red_nosed('data_files/data_day2.txt')
 
 def count_safe_reports_dampener(file_path):
     def is_safe_report(report):
