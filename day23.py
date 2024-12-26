@@ -1,5 +1,4 @@
 from collections import defaultdict
-from itertools import combinations
 
 # Step 1: Parse the input data
 with open('data_files/data_day23.txt') as f:
